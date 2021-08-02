@@ -1,0 +1,22 @@
+{
+  "name": "demo",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "rollup": "rollup -c ./build/rollup.config.js"
+  },
+  "author": "yufei",
+  "license": "ISC",
+  "dependencies": {
+    "@babel/core": "^7.5.5",
+    "@babel/plugin-external-helpers": "^7.0.0",
+    "@babel/preset-env": "^7.5.5",
+    "rollup-plugin-babel": "^4.3.3",
+    "rollup-plugin-commonjs": "^10.0.1",
+    "rollup-plugin-node-resolve": "^5.2.0",
+    "rollup-plugin-vue": "^5.0.1",
+    "vue-loader": "^15.7.1",
+    "webpack": "^4.39.1"
+  }
+}

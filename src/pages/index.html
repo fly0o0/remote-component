@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+  <meta name="apple-mobile-web-app-capable" content="yes">
+  <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
+  <meta name="format-detection" content="telephone=no" />
+  <meta name="viewport" content="width=device-width,initial-scale=1.0,maximum-scale=1.0, minimum-scale=1.0,user-scalable=no">
+  <title></title>
+  <link rel="shortcut icon" type="image/x-icon" href="//yun.tuisnake.com/babi/babi.ico">
+
+  <!-- NDS预加载 -->
+  <link rel="dns-prefetch" href="//yun.tuisnake.com">
+
+  <script type="text/javascript">
+    function setRem() {
+      // 当前页面宽度相对于 750 宽的缩放比例，可根据自己需要修改。
+      var el = document.documentElement;
+      var scale = el.clientWidth / 750;
+      // @TODO 使用频率很高，方法暴露提供给其他地方使用
+      window.remScale = scale;
+      // 设置页面根节点字体大小 基准大小 100
+      el.style.fontSize = 100 * Math.min(scale, 2) + 'px';
+    }
+    // 初始化
+    setRem();
+    // 改变窗口大小时重新设置 rem
+    window.onresize = function() {
+      setRem();
+    }
+  </script>
+</head>
+<body>
+
+  首页
+  <script type="text/javascript" src="//yun.duiba.com.cn/h5/vendor.min.js"></script>
+</body>
+</html>

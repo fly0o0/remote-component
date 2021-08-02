@@ -1,0 +1,28 @@
+{
+  "exclude": [
+    "node_modules"
+  ],
+  "compilerOptions": {
+    "baseUrl": ".",
+    "paths": {
+      "@less/*": [
+        "./src/less/*"
+      ],
+      "@assets/*": [
+        "./src/assets/*"
+      ],
+      "@pages/*": [
+        "./src/pages/*"
+      ],
+      "@common/*": [
+        "./src/common/*"
+      ],
+      "@tools/*": [
+        "./src/tools/*"
+      ],
+      "@activity/*": [
+        "./src/pages/activity/*"
+      ]
+    }
+  }
+}
