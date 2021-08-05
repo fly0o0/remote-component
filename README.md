@@ -1,3 +1,6 @@
+## 前言
+
+这是一个远程组件的DEMO，介绍文章在https://juejin.cn/post/6992483283187531789。
 ## 安装依赖
 
 安装node.js
@@ -23,5 +26,5 @@ npm run rollup
 可以通过下面命令尝试一下
 ## 验证页面加载远程组件（弹层），启动项目
 ```
-skin=activity/modal yarn run dev
+skin=activity/modal npm run dev
 ```
