@@ -1,6 +1,6 @@
 ## 前言
 
-这是一个远程组件的DEMO，介绍文章在https://juejin.cn/post/6992483283187531789。
+这是一个远程组件的DEMO，介绍文章在https://juejin.cn/post/6992483283187531789
 ## 安装依赖
 
 安装node.js
@@ -24,7 +24,10 @@ npm run rollup
 默认使用之前构建过的//yun.tuia.cn/tuia/cdn/remote/rollup.js。
 
 可以通过下面命令尝试一下
+
 ## 验证页面加载远程组件（弹层），启动项目
+
+windows同学请使用git bash或者“非cmd”的跑
 ```
 skin=activity/modal npm run dev
 ```
